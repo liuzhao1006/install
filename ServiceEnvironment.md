@@ -93,4 +93,23 @@
 
 ## 配置vsftp.conf文件
 
-  vim /etc/vsftpd/vsftpd.conf
+  1.打开配置文件命令：
+
+    vim /etc/vsftpd/vsftpd.conf
+
+  可以查看和修改文件功能，一般情况下不修改
+
+  2.添加一个用户，并且指定目录权限命令：
+
+    useradd -d /home/liuzhao liuzhao
+
+  命令解释： 增加用户liuzhao 并指定liuzhao用户的主目录为/home/liuzhao
+
+  3.为liuzhao用户添加密码命令：
+
+    passwd liuzhao
+
+  命令解释： 为liuzhao设置密码， 运行后输入两次相同的密码。
+
+
+  
