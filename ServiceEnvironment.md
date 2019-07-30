@@ -97,7 +97,14 @@
 
     vim /etc/vsftpd/vsftpd.conf
 
-  可以查看和修改文件功能，一般情况下不修改
+  可以查看和修改文件功能，一般情况下不修改，修改以下内容
+
+    # 允许本地用户登录FTP
+    local_enable=YES
+    # 配置用户拦截机制，启用/etc/vsftpd/user_list 文件且设置为白名单
+    userlist_enable=YES
+    userlist_deny=NO
+
 
   2.添加一个用户，并且指定目录权限命令：
 
@@ -110,6 +117,3 @@
     passwd liuzhao
 
   命令解释： 为liuzhao设置密码， 运行后输入两次相同的密码。
-
-
-  
