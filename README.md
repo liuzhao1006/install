@@ -2,6 +2,4 @@
 centos环境
 #####
 
-  zzz40500/GsonFormat
-  
-  https://github.com/zzz40500/GsonFormat
+ 最新版的jsonformat在[liuzhao1006-patch-1](https://github.com/liuzhao1006/install/edit/liuzhao1006-patch-1)分支上
